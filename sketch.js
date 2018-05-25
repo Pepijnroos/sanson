@@ -74,6 +74,10 @@ function draw(){
   imageMode(CORNER);
   image(stars, 0, 0);
   
+  textSize(20);
+  fill(255,255,0);
+  text(time,20,70);
+  
   // Update each ship
   for (i = 0; i < ships.length; i++){
     current_ship = ships[i]
