@@ -77,8 +77,33 @@ function draw(){
   image(stars, 0, 0);
   
   textSize(30);
-  fill(255,255,0);
+  fill(255,255,255);
   text(time,40,70);
+  
+  fill(255,255,255);
+  rect(400,0,700,50); 
+  rect(870,856,406,60);
+  rect(0,750,200,166);
+  fill(255,30,255); 
+  ellipse(740,591,20,20);  
+  ellipse(403,504,20,20);
+  ellipse(278,455,20,20);
+  ellipse(40,875,20,20);
+  textSize(20); 
+  fill(0,0,0);
+  text("Essequibo",150,450);
+  text("Berbice",440,503);
+  text("Surinam",770,588);
+  textSize(20);
+  text("Individual slave transports to Berbice, Essequibo and Surinam, 1658-1713",420,35);
+  text("Legend",70,775);
+  image(legendshp, 40, 815); 
+  textSize(15); 
+  text("Ship",100,815); 
+  text("Slave port",100,880);
+  textSize(10)
+  text("Source: Slave Voyages Database, http://www.slavevoyages.org/, (26-05-2018).",900,876);
+  text("Map: David Rumsey Map Collection, Georg Sanson, Guyana, 1656.", 900,896);
   
   // Update each ship
   for (i = 0; i < ships.length; i++){
@@ -93,30 +118,7 @@ function draw(){
     } 
     // Draw ship
     current_ship.display();
-    fill(255,255,255);
-    rect(400,0,700,50); 
-    rect(870,856,406,60);
-    rect(0,750,200,166);
-    fill(255,30,255); 
-    ellipse(740,591,20,20);
-    ellipse(403,504,20,20);
-    ellipse(278,455,20,20);
-    ellipse(40,875,20,20);
-    textSize(20); 
-    fill(0,0,0);
-    text("Essequibo",150,450);
-    text("Berbice",440,503);
-    text("Surinam",770,588);
-    textSize(20);
-    text("Individual slave transports to Berbice, Essequibo and Surinam, 1658-1713",420,35);
-    text("Legend",70,775);
-    image(legendshp, 40, 815); 
-    textSize(15); 
-    text("Ship",100,815); 
-    text("Slave port",100,880);
-    textSize(10)
-    text("Source: Slave Voyages Database, http://www.slavevoyages.org/, (26-05-2018).",900,876);
-    text("Map: David Rumsey Map Collection, Georg Sanson, Guyana, 1656.", 900,896);
+    
   }
   // Check if time should move forward
   time = timeflow(time, speedoftime);
