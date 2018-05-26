@@ -98,7 +98,7 @@ function draw(){
     ellipse(403,504,20,20);
     ellipse(278,455,20,20); 
     textSize(20); 
-    fill(255,255,255)
+    fill(0,0,0)
     text("Essequibo",150,450);
     text("Berbice",440,473);
     text("Surinam",770,558);
