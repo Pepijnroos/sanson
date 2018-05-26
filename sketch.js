@@ -102,7 +102,7 @@ function draw(){
     ellipse(740,591,20,20);
     ellipse(403,504,20,20);
     ellipse(278,455,20,20);
-    ellipse(40,810,20,20);
+    ellipse(40,825,20,20);
     textSize(20); 
     fill(0,0,0);
     text("Essequibo",150,450);
