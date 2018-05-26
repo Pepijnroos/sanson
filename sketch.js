@@ -114,7 +114,7 @@ function draw(){
     image(legendshp, 40, 815); 
     textSize(15); 
     text("Ship",100,815); 
-    text("Slave port",100,885);  
+    text("Slave port",100,880);  
   }
   // Check if time should move forward
   time = timeflow(time, speedoftime);
