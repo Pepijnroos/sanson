@@ -97,10 +97,11 @@ function draw(){
     ellipse(403,504,20,20);
     ellipse(278,455,20,20);
     current_ship.display();
-    fill(255,255,255);
+    fill(255,245,185);
     rect(400,0,700,50); 
     rect(700,856,576,60);
-    rect(0,700,200,216); 
+    fill(255,255,255)
+    rect(0,700,200,216);
     textSize(20); 
     fill(0,0,0)
     text("Essequibo",150,450);
