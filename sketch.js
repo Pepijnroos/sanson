@@ -1,5 +1,6 @@
 let mybubble;
 let shp;
+let legendshp; 
 let stars;
 let time;
 let speedoftime;
@@ -19,7 +20,8 @@ let data;
 
 function preload(){
   shp = loadImage("ship.png");
-  stars = loadImage("geosanson1656.jpg")
+  stars = loadImage("geosanson1656.jpg");
+  legendshp = loadImage("legendship.png"); 
 
   // Load data from a TSV file
   data = loadTable("data.tsv","tsv","header")
@@ -106,7 +108,7 @@ function draw(){
     text("Surinam",770,588);
     textSize(20)
     text("Individual slave transports to Berbice, Essequibo and Surinam, 1658-1713",420,35);
-    image(shp, 20, 720, width / 2, height / 2); 
+    image(legendshp, 20, 720); 
   }
   // Check if time should move forward
   time = timeflow(time, speedoftime);
