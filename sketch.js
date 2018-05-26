@@ -64,7 +64,7 @@ function setup(){
   // Set values for data, and display the background image
   image(stars, 0, 0);
   time = 1658;
-  startingframes = time * 60;
+  startingframes = time * 120;
   speedoftime = 1;
   goal = 0;
   frameadjust = -20;
@@ -181,7 +181,7 @@ class Ship {
     }
 
     // Calculate information (arrival frame, goal, direction, and distance)
-    let arrivalframe = (arrival * 60 * speedoftime) + this.frameadjust;
+    let arrivalframe = (arrival * 120 * speedoftime) + this.frameadjust;
     let destination = createVector(x, y);
     let dir = p5.Vector.sub(destination, this.pos);
     let distance = dir.mag();
