@@ -110,7 +110,7 @@ function draw(){
     text("Surinam",770,588);
     textSize(20);
     text("Individual slave transports to Berbice, Essequibo and Surinam, 1658-1713",420,35);
-    text("Legend",20,775);
+    text("Legend",70,775);
     image(legendshp, 40, 815); 
   }
   // Check if time should move forward
