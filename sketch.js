@@ -112,6 +112,9 @@ function draw(){
     text("Individual slave transports to Berbice, Essequibo and Surinam, 1658-1713",420,35);
     text("Legend",70,775);
     image(legendshp, 40, 815); 
+    textSize(15); 
+    text("Ship",100,815); 
+    text("Slave port",100,885);  
   }
   // Check if time should move forward
   time = timeflow(time, speedoftime);
