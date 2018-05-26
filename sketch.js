@@ -97,7 +97,7 @@ function draw(){
   textSize(20);
   text("Individual slave transports to Berbice, Essequibo and Surinam, 1658-1713",420,35);
   text("Legend",70,775);
-  image(legendshp, 20, 795); 
+  image(legendshp, 10, 785); 
   textSize(15); 
   text("Ship",100,815); 
   text("Slave port",100,880);
