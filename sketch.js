@@ -91,6 +91,8 @@ function draw(){
     } 
     // Draw ship
     current_ship.display();
+    fill(255,245,185);
+    rect(400,0,20,400); 
   }
   // Check if time should move forward
   time = timeflow(time, speedoftime);
