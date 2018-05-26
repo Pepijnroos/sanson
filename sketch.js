@@ -97,12 +97,12 @@ function draw(){
     rect(400,0,700,50); 
     rect(700,856,576,60);
     fill(255,255,255);
-    rect(0,700,200,216);
+    rect(0,750,200,166);
     fill(255,30,255); 
     ellipse(740,591,20,20);
     ellipse(403,504,20,20);
     ellipse(278,455,20,20);
-    ellipse(40,825,20,20);
+    ellipse(40,875,20,20);
     textSize(20); 
     fill(0,0,0);
     text("Essequibo",150,450);
@@ -110,8 +110,8 @@ function draw(){
     text("Surinam",770,588);
     textSize(20);
     text("Individual slave transports to Berbice, Essequibo and Surinam, 1658-1713",420,35);
-    text("Legend",20,725);
-    image(legendshp, 40, 765); 
+    text("Legend",20,775);
+    image(legendshp, 40, 815); 
   }
   // Check if time should move forward
   time = timeflow(time, speedoftime);
