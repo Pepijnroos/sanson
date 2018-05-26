@@ -93,6 +93,7 @@ function draw(){
     current_ship.display();
     fill(255,245,185);
     rect(400,0,600,50); 
+    rect(700,886,576,30);
     fill(255,30,255); 
     ellipse(740,591,20,20);
     ellipse(403,504,20,20);
