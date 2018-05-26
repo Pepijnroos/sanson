@@ -90,15 +90,15 @@ function draw(){
       current_ship.move(current_ship.data.journey[goal[1]].destination[0], current_ship.data.journey[goal[1]].destination[1], current_ship.data.journey[goal[1]].arrival);
     } 
     // Draw ship
+    fill(255,30,255); 
+    ellipse(740,591,20,20);
+    ellipse(403,504,20,20);
+    ellipse(278,455,20,20);
     current_ship.display();
     fill(255,245,185);
     rect(400,0,600,50); 
     rect(700,856,576,60);
-    rect(0,700,200,216);
-    fill(255,30,255); 
-    ellipse(740,591,20,20);
-    ellipse(403,504,20,20);
-    ellipse(278,455,20,20); 
+    rect(0,700,200,216); 
     textSize(20); 
     fill(0,0,0)
     text("Essequibo",150,450);
