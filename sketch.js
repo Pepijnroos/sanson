@@ -128,7 +128,7 @@ function draw(){
 // Move time function. This sets the interval for the time variable to move forward:
 // By default, this is set per 60 frames (so time = 1 is one second)
 function timeflow(time, timespeed){
-  if (frameCount % (timespeed * 60) == 0){
+  if (frameCount % (timespeed * 120) == 0){
     return time += 1;
   } else {
     return time
