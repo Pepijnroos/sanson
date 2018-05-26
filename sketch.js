@@ -65,7 +65,7 @@ function setup(){
   image(stars, 0, 0);
   time = 1658;
   startingframes = time * 60;
-  speedoftime = 1;
+  speedoftime = 0.5f;
   goal = 0;
   frameadjust = -20;
 
