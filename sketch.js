@@ -99,7 +99,7 @@ function draw(){
   text("Legend",70,775);
   image(legendshp, 10, 785); 
   textSize(15); 
-  text("Ship",100,815); 
+  text("Ship",100,820); 
   text("Slave port",100,880);
   textSize(10)
   text("Source: Slave Voyages Database, http://www.slavevoyages.org/, (26-05-2018).",900,876);
