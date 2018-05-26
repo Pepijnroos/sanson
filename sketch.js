@@ -115,8 +115,8 @@ function draw(){
     text("Ship",100,815); 
     text("Slave port",100,880);
     textSize(10)
-    text("Source: Slave Voyages Database, http://www.slavevoyages.org/, (26-05-2018)",890,876);
-    text("Map: David Rumsey Map Collection, Georg Sanson, Guyana, 1656", 890,896);
+    text("Source: Slave Voyages Database, http://www.slavevoyages.org/, (26-05-2018).",900,876);
+    text("Map: David Rumsey Map Collection, Georg Sanson, Guyana, 1656.", 900,896);
   }
   // Check if time should move forward
   time = timeflow(time, speedoftime);
