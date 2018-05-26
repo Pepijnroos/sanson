@@ -101,8 +101,8 @@ function draw(){
     textSize(20); 
     fill(0,0,0)
     text("Essequibo",150,450);
-    text("Berbice",440,473);
-    text("Surinam",770,558);
+    text("Berbice",440,503);
+    text("Surinam",770,588);
   }
   // Check if time should move forward
   time = timeflow(time, speedoftime);
