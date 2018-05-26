@@ -81,7 +81,6 @@ function draw(){
   text(time,40,70);
   
   fill(255,255,255);
-  rect(400,0,700,50); 
   rect(870,856,406,60);
   rect(0,750,200,166);
   fill(255,30,255); 
@@ -118,6 +117,8 @@ function draw(){
     } 
     // Draw ship
     current_ship.display();
+    fill(255,255,255);
+    rect(400,0,700,50);
     
   }
   // Check if time should move forward
