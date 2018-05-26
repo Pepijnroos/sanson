@@ -83,6 +83,7 @@ function draw(){
   fill(255,255,255);
   rect(870,856,406,60);
   rect(0,750,200,166);
+  rect(400,0,700,50);
   fill(255,30,255); 
   ellipse(740,591,20,20);  
   ellipse(403,504,20,20);
@@ -94,6 +95,7 @@ function draw(){
   text("Berbice",440,503);
   text("Surinam",770,588);
   textSize(20);
+  text("Individual slave transports to Berbice, Essequibo and Surinam, 1658-1713",420,35);
   text("Legend",60,775);
   image(legendshp, 10, 785); 
   textSize(15); 
@@ -116,10 +118,6 @@ function draw(){
     } 
     // Draw ship
     current_ship.display();
-    fill(255,255,255);
-    rect(400,0,700,50);
-    textSize(20);
-    text("Individual slave transports to Berbice, Essequibo and Surinam, 1658-1713",420,35);
     
   }
   // Check if time should move forward
