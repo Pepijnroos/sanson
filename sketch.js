@@ -95,7 +95,7 @@ function draw(){
     current_ship.display();
     fill(255,255,255);
     rect(400,0,700,50); 
-    rect(900,856,376,60);
+    rect(870,856,406,60);
     rect(0,750,200,166);
     fill(255,30,255); 
     ellipse(740,591,20,20);
@@ -115,8 +115,8 @@ function draw(){
     text("Ship",100,815); 
     text("Slave port",100,880);
     textSize(10)
-    text("Source: Slave Voyages Database, http://www.slavevoyages.org/, (26-05-2018)",920,876);
-    text("Map: David Rumsey Map Collection, Georg Sanson, Guyana, 1656", 920,896);
+    text("Source: Slave Voyages Database, http://www.slavevoyages.org/, (26-05-2018)",890,876);
+    text("Map: David Rumsey Map Collection, Georg Sanson, Guyana, 1656", 890,896);
   }
   // Check if time should move forward
   time = timeflow(time, speedoftime);
