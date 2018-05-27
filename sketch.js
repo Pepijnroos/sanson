@@ -24,7 +24,7 @@ function preload(){
   legendshp = loadImage("legendship.png"); 
 
   // Load data from a TSV file
-  data = loadTable("data.tsv","tsv","header")
+  data = loadTable("sansondata.tsv","tsv","header")
   
   
 }
